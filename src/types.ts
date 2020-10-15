@@ -23,3 +23,7 @@ export type EventFormatterArgs = {
   client: ColonyClient,
   parsed: Parsed,
 }
+
+export interface EventMapper<V = any> {
+  [key: string]: V;
+ }

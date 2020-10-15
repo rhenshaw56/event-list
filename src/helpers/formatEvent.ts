@@ -1,5 +1,5 @@
 import { ROLES, getTimeLog, getUserAddress, getNumber } from './events';
-import { EventFormatterArgs } from '../types';
+import { EventFormatterArgs, EventMapper } from '../types';
 
 
 const formatInitialisedEvent = async ({ log } : EventFormatterArgs) => {
@@ -50,7 +50,7 @@ const formatDomainAddedEvent = async ({ parsed, log} : EventFormatterArgs) => {
   };
 }
 
-const formatterMap = {
+const formatterMap : EventMapper = {
   'ColonyInitialised': formatInitialisedEvent,
   'ColonyRoleSet': formatColonyRoleSetEvent,
   'PayoutClaimed': formatPayoutClaimedEvent,
