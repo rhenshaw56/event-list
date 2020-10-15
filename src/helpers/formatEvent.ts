@@ -57,5 +57,4 @@ const formatterMap : EventMapper = {
   'DomainAdded': formatDomainAddedEvent
 };
 
-// @ts-ignore
 export default async (type : string, data : EventFormatterArgs) => await formatterMap[type](data);
