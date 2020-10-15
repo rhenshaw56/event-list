@@ -33,7 +33,6 @@ export const getTimeLog = async (blockHash: string) => await getBlockTime(provid
 export const getNumber = (data: string) => new utils.BigNumber(data);
 
 const getLogData = (client: ColonyClient, log: Log) => {
-  console.log('log', log);
   return {
     parsed: client.interface.parseLog(log) || {},
     log: log,

@@ -31,7 +31,7 @@ const EventList: Function = ({ list } : Props): JSX.Element => (
         const date = new Date(item.secondary);
         const key = `${item.avatar}${item.hash}${Math.random()}`;
         const src = blockies(key);
-        const secondary = `${date.getDate()} ${MONTHS[date.getUTCMonth()]}}`
+        const secondary = `${date.getDate()} ${MONTHS[date.getUTCMonth()]}`;
 
         
         return (
