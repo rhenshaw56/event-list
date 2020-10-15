@@ -1,6 +1,7 @@
 import { ColonyRole, getColonyNetworkClient, Network, getLogs, getBlockTime, ColonyClient } from '@colony/colony-js';
 import { Wallet, utils } from 'ethers';
 import { InfuraProvider, Log } from 'ethers/providers';
+import { EventMapper } from '../types';
 
 
 
@@ -59,10 +60,11 @@ export const getEvents = (type: string) => {
   return networkClient
   .getColonyClient(MAINNET_BETACOLONY_ADDRESS)
   .then((colonyClient) => {
+    const filters : EventMapper = {
+     ...colonyClient.filters
+    };
   
-    // @ts-ignore
-    const eventFilter = colonyClient.filters[type]();
-    return [eventFilter, colonyClient];
+    return [filters[type](), colonyClient];
   })
   .then(async (args) => {
     const [filter, colonyClient] = args;
