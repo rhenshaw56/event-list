@@ -1,0 +1,58 @@
+.app {
+  margin: 0 auto;
+  background: linear-gradient(#f4f0f3, #eaf3f7);
+}
+
+.eventList {
+  margin: 0 auto;
+  max-width: 43.75rem;
+  box-shadow: 10px rgba(62, 118, 244, 0.14);
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.listItem {
+  height: 5.625rem;
+  background-color: #FFFFFF;
+  padding: 1.625rem 1.25rem;
+  border-radius: 0.375rem;
+  margin: 0.1875rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.primary {
+  font-size: 0.875rem;
+  display: inline;
+}
+
+.secondary {
+  font-size: 0.75rem;
+}
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.event-info {
+  position: relative;
+  left: 20px;
+  width: 65%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listItem:hover {
+  color: rgba(29, 29, 31);
+  border: 1px solid rgba(110, 110, 115);
+  font-weight: 700;
+}
+
+.listItem:hover > .event-info {
+  overflow: visible;
+  white-space: normal;
+}
+
+

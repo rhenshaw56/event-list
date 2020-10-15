@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import EventList from './component/EventList';
+import useEvent from './hooks'
 
-function App() {
+import { IEvent } from './types';
+
+import styles from './App.module.css';
+
+const App: Function = (): JSX.Element => {
+  const [events, setEvents ] = useState<IEvent[]>([]);
+
+  const hasColonyInitialisedEvents = useEvent(setEvents, 'ColonyInitialised');
+  const hasColonyRoleSetEvents = useEvent(setEvents, 'ColonyRoleSet');
+  const hasPayoutClaimedEvents = useEvent(setEvents, 'PayoutClaimed');
+  const hasDomainAddedEvents = useEvent(setEvents, 'DomainAdded');
+
+  const isLoaded = hasColonyInitialisedEvents || hasColonyRoleSetEvents
+    || hasPayoutClaimedEvents || hasDomainAddedEvents;
+
+  if (!isLoaded) return <div className="loader" />;
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles['app']}>
+      <EventList list={events} />
     </div>
   );
-}
+};
 
 export default App;

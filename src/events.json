@@ -1,0 +1,127 @@
+[
+  {
+    "primary": " <b>Root</b> role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1581086695000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Arbitration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086695000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Architecture role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086695000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086695000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086695000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086916000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581086963000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 2",
+      "secondary": 1581105945000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Architecture role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 2",
+      "secondary": 581105962000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 2",
+      "secondary": 1581106012000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581106597000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Architecture role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1581106678000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581106695000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Root role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1581106738000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581606144000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+      "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+      "secondary": 1581607299000,
+      "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1581614529000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1583160156000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 3",
+    "secondary": 1583840195000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 2",
+    "secondary": 1584373831000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Administration role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 2",
+    "secondary": 1584373893000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 3",
+    "secondary": 1585139868000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 3",
+    "secondary": 1585139894000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary":"Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1588690105000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  },
+  {
+    "primary": "Funding role assigned to user 0x869814034d96544f3C62DE2aC22448ed79Ac8e70 in domain 1",
+    "secondary": 1588690194000,
+    "avatar": "0x869814034d96544f3C62DE2aC22448ed79Ac8e70"
+  }
+]
